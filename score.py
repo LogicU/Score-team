@@ -13,7 +13,7 @@ nopass = []
 for i in b:
   if int(i) < 60:
    nopass.append(int(i))
-print("不及格:",nopass,sep="")
+print("不及格:",nopass)
 max = 0
 min = 100
 for i in b:
