@@ -17,3 +17,14 @@ print("不及格:",nopass)
 b = list(map(int, b))
 average = sum(b) / len(b)
 print(average)
+print("不及格:",nopass,sep="")
+max = 0
+min = 100
+for i in b:
+  num = int(i)
+  if num > max :
+    max = num
+  if num < min :
+    min = num
+print("最大值:",max,sep="")
+print("最小值:",min,sep="")
